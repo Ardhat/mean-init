@@ -11,3 +11,12 @@ git clone https://github.com/Ardhat/mean-init.git <br/>
 cd mean-init <br/>
 bash mean-init.sh <br/>
 
+<h4> Troubleshooting <h4/>
+if mongodb fails to start on boot, which you can check like this: <br/>
+sudo /etc/init.d/mongod status <br/>
+
+delete mongod.lock file <br/>
+rm /var/lib/mongodb/mongod.lock
+
+and then start it
+sudo /etc/init.d/mongod start
