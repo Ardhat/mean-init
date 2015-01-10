@@ -14,9 +14,9 @@ bash mean-init.sh <br/>
 <h4> Troubleshooting <h4/>
 if mongodb fails to start on boot, which you can check like this: <br/>
 sudo /etc/init.d/mongod status <br/>
-
+<br/>
 delete mongod.lock file <br/>
-rm /var/lib/mongodb/mongod.lock
-
+rm /var/lib/mongodb/mongod.lock<br/>
+<br/>
 and then start it <br/>
 sudo /etc/init.d/mongod start
