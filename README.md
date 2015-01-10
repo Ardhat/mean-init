@@ -18,5 +18,5 @@ sudo /etc/init.d/mongod status <br/>
 delete mongod.lock file <br/>
 rm /var/lib/mongodb/mongod.lock
 
-and then start it
+and then start it <br/>
 sudo /etc/init.d/mongod start
