@@ -9,5 +9,5 @@ Node > http://node-arm.herokuapp.com/node_latest_armhf.deb
 <h4> To Run <h4/>
 git clone https://github.com/Ardhat/mean-init.git <br/>
 cd mean-init <br/>
-./mean-init.sh <br/>
+bash mean-init.sh <br/>
 
