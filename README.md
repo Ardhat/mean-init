@@ -1,7 +1,7 @@
 # mean-init
 <h4> MEAN stack 4 pi initialization script <h4/>
 
-Pulls and Installs pre-compilled ARM versions of Nodejs and MongoDB (Mongo4Pi) from seperate repos
+Pulls and Installs pre-compilled ARM versions of Nodejs and MongoDB (Mongo4Pi) from separate repos
 
 Mongo4Pi > https://github.com/svvitale/mongo4pi <br/>
 Node > http://node-arm.herokuapp.com/node_latest_armhf.deb
